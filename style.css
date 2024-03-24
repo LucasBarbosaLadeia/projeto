@@ -1,0 +1,29 @@
+/*css reset */
+
+.grid {
+/*aplicar a grid*/
+display: grid;
+grid-template-columns: 50% 50%;   
+}
+.texto{
+    position: absolute;
+    top: 10%;
+    Left:45%;
+    text-align: center;
+    padding: 10px;
+    font-size:75px;
+    font-family:fantasy;
+}
+.instalar{
+    position: absolute;
+    top: 50%;
+    Left:50%;
+    text-align: center;
+    padding: 10px;
+    font-size:10px;
+}
+button{
+    background-color:rgb(94, 83, 69);
+    color:black;
+    border-color:rgb(65, 60, 53);
+}
