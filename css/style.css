@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.imagemdefundo {
+    padding-top: 100px;
+}
+.imagemdefundo video {
+    width: 100%;
+    z-index: index -2;;
+}
+.grid {
+display: grid;
+grid-template-columns:50% 50%;
+text-align: center;
+background-color: whitesmoke;
+}
+
+header{
+  width:100%;
+  box-shadow: 0 0 10px whitesmoke;
+  background-color: aliceblue;
+  position: fixed;
+  top: 0;
+}
+header nav{
+    float: right;
+}
+header nav ul {
+   
+    margin: 20px;
+    font-size: 25px;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 15px;
+}
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    border-color: black;
+}
+header nav ul li a:hover{
+    box-shadow: 10px 10px 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.imagemdefundo  a{
+   position: absolute;
+    top: 43%;
+    z-index: 1;
+    left: 50%;
+    padding: 20px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    border-radius: 30%;
+    color: black;
+
+    
+}
+.imagemdefundo a:hover{
+    background-color: rgba(245, 245, 245, 0.919);
+    box-shadow: 0 0 10px;
+}
+.survivor{
+    text-align: center;
+    font-size: 40px;
+}
+.desc1{
+    text-align: center;
+    font-size: 31px;
+
+}
+.disc2{
+    text-align:center;
+    font-size: 28px;
+  
+}
+.imagensdojogo{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+.fichazumbi{
+    text-align:center;
+    font-size: 30px;
+}
+.label {
+    width:1000px;
+    margin:auto;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+label{
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+.coluna {
+    padding-bottom: 30px;
+    padding-bottom: 200px;
+    box-shadow: 10px 10px 20px;
+    margin: 80px;
+    border-radius: 20px;
+    background-color:whitesmoke;
+}
+
+.fichaperprin {
+    font-size: 30px;
+}
+#info { background-color:whitesmoke;
+box-shadow: 0 0 10px;
+padding: 100px;
+}
+
+.imagemzumbi {
+    box-shadow: 0 1px 1px;
+    border-radius: 20px 20px 0 0;
+    background-color: grey;
+}
+.imagemperprin{
+    box-shadow: 0 1px 1px;
+    border-radius: 20px 20px 0 0;
+    background-color: grey;
+}
+footer{
+    background-color: black;
+    color: white;
+}
