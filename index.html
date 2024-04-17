@@ -5,44 +5,35 @@
     <title>Site</title>
 
     <link rel="stylesheet" href="css/style.css">
-   <header>
-<nav>
-    <ul>
-        <li>
-            <a href="#info">Sobre o Jogo</a>
-        </li>
-        <li>
-            <a href="#descrição">Sobre os personagens></a>
-        </li>
-    </ul>
-</nav>    
-    <section id="retainer">
-        <div class="a">
-    <div class="texto">
-        </div>
-        <div class="texto">
-       <p>Survivor</p>
-       </div>
-    </div>
-    
-   </header>
-    </section>
 </head>
 <body>
+    <main>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="#info">Sobre o Jogo</a></li>
+            <li><a href="#descrição">Sobre os Personagens</a></li> 
+            <li><a href="#contato">Entre em Contato</a></li>
+            <li><a href="#home">Inicio</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section id="home">
     <div class="imagemdefundo">
-        <img src="imagens/background.jpg" alt="cidade destruida" title="cidade destruida">
-        </div>
-        <div class="instalar">
-            <button> Instale Agora</button>
-        </div>        
+        <video src="imagens/video.mp4" autoplay loop muted ></video>
+            <div class="linkdojogo">
+        <a href="Novo projeto/index.html">Jogue Agora</a> 
+            </div>
+            </div>
+        </section>      
     <section id = info>
         <div class="survivor">
-        <h1>Sobre Survivor</h1>
+        <h1>Historia de Survivor</h1>
         </div>
-        <div class="oroko">
+        <div class="desc1">
         <h2>Esse é um jogo top down shooter que se passa em um apocalipse zumbi</h2>
         </div>
-        <div class="orokinho">
+        <div class="disc2">
         <p>No ano de 1983 após um laboratorio acidentalmente liberar uma amostra modificada do virus da raiva<br>
         que acabou mutando para diminuir sua letalidade e aumentar o grau de controle sobre o infectado, fazendo com que quem entre em contato com esse virus tenha uma vontade incontrolavel de atacar outros seres<br>
         o Surto começou em um parque ecologico, afetando os mamiferos locais e após espalhando para os moradores locais </p>
@@ -50,29 +41,64 @@
         <div class="imagens">
             </section>
                 <section id="descrição">
-                    <div class="semblante">
-        <h1><strong>Imagens do Jogo</strong></h1>
-         </div>
+                    <div class="imagensdojogo">
+                       <h1>Imagens do jogo</h1>
+                    </div>
         <div class="grid">
+           
             <div class="coluna">
-                <div class="lava">
+                <div class="fichaperprin">
+                    <div class="imagemperprin">
         <img src="imagens/perprin.png" alt="Personagem Principal" title="Personagem principal">
-        <p>este é o seu personagem</p>
+        </div>
+        <h1>Este é o seu personagem</h1>
         <p>após sair do abrigo onde mora com um grupo de sobreviventes, uma horda acaba o separando fazendo com que ele tenha que atravessa-la a força </p>
         </div>
                 </div> <!--coluna 1-->
                 <div class="coluna">
-                    <div class="racha">
-        <img src="imagens/zumbi.png" alt="Zumbi" title="Zumbi">
-        <p>Este é um Zumbi</p>
-        </div>
+                    <div class="fichazumbi">
+                        <div class="imagemzumbi">
+        <img src="imagens/zumbi.png" alt="Zumbi" title="Zumbi"></div>
+        <h1>Este é um Zumbi</h1>
+        
         <P>Ele é o inimigo principal do jogo<br> sendo humanos infectados por um virus eles não tem capacidades motoras comparaveis as de um ser humano não infectado</P>
-                    </div> <!--coluna 2-->
+               </div>    
+    </div> <!--coluna 2-->
+
         </div> <!--grid-->
         </div>
         </section>
+        <section id="sobremim">
+            <div class="chefia">
+                <h1>Olá, eu sou o criador do Site</h1>
+                <p>Meu Nome é Lucas Barbosa Ladeia</p>
+                <P>Este Site é um projeto </P>
 
-
+            </div>
+        </section>
+        <div class="jogo">
+        <!--iframe width="100%" height="500" src="Novo projeto/index.html"></iframe>-->
+        </div>
+        <section id="contato">
+            <div class="label">
+            <h2>Entre em Contato</h2>
+            <form name="formcontato">
+                <label form="nome">Digite seu nome completo</label><br> 
+                <input type="text" name="nome" id="nome" required>
+                <br>
+                <label form="Email">Digite o seu Email</label><br>
+                <input type="text" name="Email" id="Email" required>
+                <br>
+                <label form="mensagem">Digite a sua mensagem</label><br>
+                <textarea name="mensagem" id="mensagem" required rows="8"></textarea><br>
+                <button type="submit">
+                    Envie a sua mensagem
+                </button>
+            </form>
+            </div>
+        </section>
+</main>
+<footer>Todos os direitos reservados </footer>
         
 
 </body>
